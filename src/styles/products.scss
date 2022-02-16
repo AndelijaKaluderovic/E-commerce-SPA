@@ -1,0 +1,36 @@
+@import '../index.scss';
+
+.products-list {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 300px;
+    justify-content: center;  
+}
+
+.products-name {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.products-item{
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+@media screen and (min-width: 600px) {
+    .products-list {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .products-list {
+        grid-template-columns: repeat(3, 300px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .products-list {
+        grid-template-columns: repeat(4, 300px);
+    }
+}

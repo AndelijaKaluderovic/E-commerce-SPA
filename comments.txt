@@ -1,0 +1,26 @@
+Efforts
+For this task I spent approx. 12 hours effectively, 
+with that the most time I utilized on route creation and displaying proper content for each view.
+
+Challenge
+The routes are handled by router.js file in which I previously defined popstate and onload functions, 
+handled click events, page navigation and reload (that required webpack file update) and finally rendered 
+fetched content.
+
+Structure
+In regard to file structure, I created pages Products, Product, About. 
+Additionally, in order to simplify I chose to build Products page by using ProductTemplate component.
+For better class distinction for classes used in Javascript I annotated them with additional "js" allowing
+CSS class changes without breaking javascript logic.
+Same was done with style, where I organized files for each component to has its own styling file.
+
+Styling
+The principles I followed are: mobile-first, responsive, in compliance with given style guide, 
+honoring elementary UX standards (e.g. button positioning in relation to the screen-size).
+
+Dilemmas
+Considering the amount of efforts/time that routing has consumed I decided to save some time and
+instead of including template language to go with template literals as I am more familiar with it. 
+
+Side Note
+Small discrepancy identified: within provided images, image number 3 (3.jpg) seems to have the same resolution as 3-thumbnail.jpg. :)
